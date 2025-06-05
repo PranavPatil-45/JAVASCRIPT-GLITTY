@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Our Best Sellers</title>
+    <!-- CSS FILE LINKED -->
+    <link rel="stylesheet" href="/Style.css">
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!-- Bootsrap CDN FOR ICON -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+   
+</head>
+<body>
+    <!-- NAV 1 -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom fixed">
+  <div class="container-fluid px-4">
+    
+    <button class="btn border-0" type="button">
+      <i style="font-size: 30px;" class="bi bi-search"></i>
+    </button>
+
+    
+    <a class="navbar-brand mx-auto fw-bold text-center" href="/index.html" style="font-size: 50px; color: #2e3b55;">Glitty</a>
+
+    
+<div class="d-flex align-items-center">
+  <select class="form-select form-select-sm me-2" style="width: auto;">
+    <option value="USD" selected>USD $</option>
+    <option value="EUR">EUR €</option>
+    <option value="INR">INR ₹</option>
+    <option value="GBP">GBP £</option>
+    <option value="AUD">AUD $</option>
+  </select>
+  <i  class="bi bi-bag" style="font-size: 35px;"></i>
+</div>
+</nav> 
+
+  <!-- NAV 2 -->
+  <div class="container-fluid justify-content-center ">
+    <ul class="navbar-nav flex-row flex-wrap justify-content-center">
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="#">Best Sellers <span>🔥</span></a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link  "style="text-decoration: none;color:black;" href="#">Leather MacBook Cases</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="#">Wood MacBook Cases</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="#">MacBook Skins</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="#">MacBook Accessories</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="#">iPad Skins</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="#">iPhone Cases</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Browse our Best Sellers</h2>
+    <p class="mb-4 mx-auto" style="max-width: 700px;">
+      Explore our best selling MacBook cases, available in both wood and leather styles. Every case is handcrafted,
+      providing superior protection with rubberized edges. Find your perfect case and experience the ideal combination
+      of elegance and durability for your MacBook.
+    </p>
+
+    <!-- Sort Dropdown -->
+    
+
+    <div class="row gy-4" id="WoodCases">
+      <!-- Products will be inserted here -->
+    </div>
+
+    <div class="mt-4">
+      <a href="#" class="btn btn-primary px-4 py-2" style="background-color: #2e3b55; outline: none; border: none;">
+        Shop all Wood Cases
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 text-center">
+  <div class="container">
+    
+    <div class="row gy-4" id="LeatherCases">
+     
+    </div>
+
+    <div class="mt-4">
+      <a href="#" class="btn btn-primary px-4 py-2" style="background-color: #2e3b55;
+      outline: none;border: none;">Shop all Leather Cases</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 text-center">
+  <div class="container">
+    <div id="woodCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row gx-3 justify-content-center">
+            <div class="col-6 col-sm-4 col-md-3">
+              <img src="/Images/leather trackpad.webp" class="img-fluid rounded shadow-sm" alt="Walnut">
+              <p class="mt-2 fw-medium">Walnut</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+              <img src="/Images/wood trackpad.webp" class="img-fluid rounded shadow-sm" alt="Rosewood">
+              <p class="mt-2 fw-medium">Rosewood</p>
+            </div>
+            <div class="d-none d-md-block col-md-3">
+              <img src="/Images/wood ihone case.webp" class="img-fluid rounded shadow-sm" alt="Black Ash">
+              <p class="mt-2 fw-medium">Black Ash</p>
+            </div>
+            <div class="d-none d-md-block col-md-3">
+              <img src="/Images/muticolor.webp" class="img-fluid rounded shadow-sm" alt="Cherry">
+              <p class="mt-2 fw-medium">Cherry</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- You can add more slides here if you have more images -->
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#woodCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#woodCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <!-- Indicators -->
+      <div class="carousel-indicators mt-3">
+        <button type="button" data-bs-target="#woodCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <!-- Add more buttons here if you add more slides -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Text Column -->
+      <div class="col-md-5 text-center text-md-start mb-4 mb-md-0">
+        <h3 class="fw-bold">Customize your case<br>with an Embossed Apple or Inlay</h3>
+        <p class="mt-3">
+          Embossed Apple available on all Leather cases.<br>
+          Apple Inlay available on all Wood cases.
+        </p>
+      </div>
+
+      <!-- Images Column -->
+      <div class="col-md-7">
+        <div class="row g-3">
+          <!-- Embossed Image -->
+          <div class="col-6">
+            <img src="/Images/Embossed_Closeup.jpg" alt="Embossed Apple Leather" class="img-fluid rounded">
+          </div>
+
+          <!-- Inlay Image -->
+          <div class="col-6">
+            <img src="/Images/Acrylic_Swatches_Circle.webp" alt="Apple Inlay Wood Case" class="img-fluid rounded">
+          </div>
+
+          <!-- Color Options -->
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MacBook Cases -->
+ <section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-4">MacBook Cases</h2>
+    <div class="d-flex justify-content-end mb-3">
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+          <li><a class="dropdown-item" href="#" >Name</a></li>
+          <li><a class="dropdown-item" href="#" id="LowToHigh" >Price: Low to High</a></li>
+          <li><a class="dropdown-item" href="#" >Price: High to Low</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" id="caseContainer">
+     
+       
+    </div>
+  </div>
+</section>
+
+<!-- MacBook Skins -->
+ <section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-4">MacBook Skins</h2>
+    <div class="d-flex justify-content-end mb-3">
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+          <li><a class="dropdown-item" href="#">Name</a></li>
+          <li><a class="dropdown-item" href="#" >Price: Low to High</a></li>
+          <li><a class="dropdown-item" href="#" >Price: High to Low</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" id="skinContainer">
+      
+    </div>
+  </div>
+</section>
+
+<!-- MacBook Accessories -->
+
+<section class="container py-5">
+  <h2 class="mb-4 fw-semibold">MacBook Accessories</h2>
+  <div class="d-flex justify-content-end mb-3">
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+          <li><a class="dropdown-item" href="#" >Name</a></li>
+          <li><a class="dropdown-item" href="#" >Price: Low to High</a></li>
+          <li><a class="dropdown-item" href="#" >Price: High to Low</a></li>
+        </ul>
+      </div>
+    </div>
+  <div class="row g-4" id="AccessoriesContainer">
+    
+  </div>
+  <div class="mt-4">
+        <a href="#" class="btn btn-primary px-4 py-2" style="background-color: #2e3b55;
+        outline: none;border: none;">Shop all Leather Cases</a>
+      </div>
+   
+</section>
+
+<!-- IPHONE CASES -->
+
+<section class="container py-5">
+  <h2 class="mb-4 fw-semibold">Iphone Cases</h2>
+  <div class="d-flex justify-content-end mb-3">
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+          <li><a class="dropdown-item" href="#" >Name</a></li>
+          <li><a class="dropdown-item" href="#" >Price: Low to High</a></li>
+          <li><a class="dropdown-item" href="#" >Price: High to Low</a></li>
+        </ul>
+      </div>
+    </div>
+  <div class="row g-4" id="IphoneCaseContainer">
+    
+  </div>
+  
+   
+</section>
+
+<!-- IPAD SKINS -->
+ <section class="container py-5">
+  <h2 class="mb-4 fw-semibold">Ipad Skin</h2>
+  <div class="d-flex justify-content-end mb-3">
+      <div class="dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+          <li><a class="dropdown-item" href="#" >Name</a></li>
+          <li><a class="dropdown-item" href="#" >Price: Low to High</a></li>
+          <li><a class="dropdown-item" href="#" >Price: High to Low</a></li>
+        </ul>
+      </div>
+    </div>
+  <div class="row g-4" id="IpadSkinContainer">
+    
+  </div>
+  
+   
+</section>
+
+<!-- Review Carsoul -->
+ 
+<div class="container py-5">
+  <h4 class="text-center fw-semibold">Let customers speak for us</h4>
+  <p class="text-center text-muted">from 669 reviews <span class="text-success">✅</span></p>
+
+  <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw1.avif" class="card-img-top" alt="review 1">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0 text-uppercase fs-6">Sreekanth Bhathula 
+                  <span class="badge bg-primary small ms-2">Verified</span>
+                </h6>
+                <p class="fw-semibold mt-2">I'm completely hooked on it!</p>
+                <p class="text-muted small">I am absolutely delighted with this keyboard skin! The keys truly look high quality and offer a fantastic...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw2.avif" class="card-img-top" alt="review 2">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">Customer</h6>
+                <p class="fw-semibold mt-2">Luxurious Protection</p>
+                <p class="text-muted small">It's a special feeling to own a well-crafted product. It exudes an atmosphere of elegance and timeless...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw3.avif" class="card-img-top" alt="review 3">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">E.P.</h6>
+                <p class="fw-semibold mt-2">You should get this</p>
+                <p class="text-muted small">The case is fantastic quality, as well as the customer service!!! I love it so much. It has a smooth, not too shiny...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw2.avif" class="card-img-top" alt="review 4">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">Customer</h6>
+                <p class="fw-semibold mt-2">Incredible Design</p>
+                <p class="text-muted small">This is by far the most stylish and practical case I've ever owned. The attention to detail is just top-notch.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw3.avif" class="card-img-top" alt="review 5">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">A.R.</h6>
+                <p class="fw-semibold mt-2">Perfect Fit</p>
+                <p class="text-muted small">Fits my MacBook like a glove. I love how minimal and premium it looks on my desk setup.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw2.avif" class="card-img-top" alt="review 6">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">Verified Buyer</h6>
+                <p class="fw-semibold mt-2">Worth Every Penny</p>
+                <p class="text-muted small">The build quality exceeded my expectations. It feels durable, classy, and was easy to install.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+<footer class="container-fluid bg-white py-5 ">
+  <div class="container mt-5 ">
+    <div class="row">
+   
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Support</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Installation Guides</a></li>
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Shipping & Returns</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Warranty</a></li>
+        </ul>
+      </div>
+
+   
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Company</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">100's of 5-star reviews</a></li>
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+    
+      <div class="col-md-3 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <span class="me-2" style="font-size: 1.2rem;">★★★★★</span>
+          <span>380 reviews</span>
+        </div>
+      </div>
+
+ 
+      <div class="col-md-3">
+        <h5 class="mb-3">Subscribe to our emails</h5>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Email">
+          <button class="btn btn-dark" type="button">→</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="container-fluid border-top py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-2 mb-md-0">
+          <span class="me-2">Country/region</span>
+          <span class="text-muted">India | USD $</span>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <span class="text-muted">© 2025, Gittty Powered by Shopify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/Script.js"></script>
+</body>
+</html>
