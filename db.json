@@ -1,0 +1,591 @@
+{
+  "WoodCases": [
+    {
+      "id": "1",
+      "title": "Walnut",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPWalnutBlackInlay1500px.jpg?v=1718124680&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-WalnutBlackInlay1500px_8c73148a-681a-40c3-b038-6b1ae1dda2af.jpg?v=1718371857&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Walnut.jpg?v=1718371857&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPWalnut1500px_0c916d13-21f0-4f0b-95bd-2b2d969b1e96.jpg?v=1718371857&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 199,
+      "description": "Crafted from premium-grade walnut wood, this MacBook case showcases deep, earthy brown tones and a distinctive natural grain that exudes timeless elegance. The smooth texture combined with the subtle sheen of walnut makes it a sophisticated choice for professionals and creatives alike. Designed to add a luxurious touch to your device while maintaining durability, this case perfectly balances classic charm with modern functionality."
+    },
+    {
+      "id": "2",
+      "title": "RoseWood",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPRosewoodBlackInlay1500px.jpg?v=1738794843&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-RosewoodBronze.jpg?v=1738794843&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Rosewood.jpg?v=1738794843&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPRosewood1500px_65fd23fc-5ca6-440f-b482-bbcd48222864.jpg?v=1738794843&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 199,
+      "description": "This Rosewood MacBook case is a masterpiece of luxury and distinction. Known for its rich reddish hues and finely detailed grain, rosewood offers a bold, eye-catching aesthetic that sets your device apart. The case is meticulously handcrafted to preserve the natural beauty of the wood, providing both protection and a premium feel. Ideal for those who appreciate unique style and artisan quality, this case is a true statement piece."
+    },
+    {
+      "id": "3",
+      "title": "Black Ash",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPBlackAshBlackInlay1500px.jpg?v=1738794740&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackAsh.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackAshGold.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackAshwithSilverInlay.jpg?v=1738794740&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 199,
+      "description": "Elevate your MacBook with the modern and sleek Black Ash case, designed for minimalists who value a refined, dark aesthetic. This wood features a bold, charcoal-black finish with a subtly visible grain that adds depth and texture without overwhelming the design. It’s the perfect blend of functionality and style, offering premium protection while enhancing the visual appeal of your device with a cool, contemporary vibe."
+    },
+    {
+      "id": "4",
+      "title": "Cherry",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPCherryBlackInlay1500px.jpg?v=1738794740&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Cherry.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-CherryInlay.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPCherry1500px_d23097fe-3b4e-43ea-a0c6-1a0df53356d6.jpg?v=1738794828&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 199,
+      "description": "Combining traditional craftsmanship with a warm, inviting tone, the Cherry wood MacBook case delivers both beauty and practicality. Its soft reddish-brown color deepens over time, creating a unique patina that reflects your personal journey. The case offers a silky finish and exceptional strength, making it ideal for daily use while preserving the elegant aesthetics of your device. A timeless choice for those who love natural refinement."
+    }
+  ],
+  "LeatherCases": [
+    {
+      "id": "5",
+      "title": "Cider",
+      "description": "A warm, rich brown leather case that brings elegance and durability to your tech gear. Handcrafted for timeless sophistication.",
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "128",
+      "price": 24,
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPCiderEmbossed1500px.jpg?v=1722364486&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-8CiderEmbossed1500px_c6b9a7ba-92e5-4ed7-a50d-683940b26687.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Cider2.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLECiderEmbossed1500px_efea0a86-8ae4-4c05-96bd-325ba18f0edd.jpg?v=1722364486&width=493"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Latte",
+      "description": "A soft, neutral-toned case that evokes the calm of a coffee break. Ideal for minimalists who love a subtle yet luxurious touch.",
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "94",
+      "price": 24,
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPEmbossed-Latte.jpg?v=1739900161&width=720",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLEEmbossed-Latte.jpg?v=1739900161&width=1100",
+        "https://glitty.co/cdn/shop/files/Latte_Leather_-_emboss_infographic.jpg?v=1739982500&width=1100",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupOPENEmbossed-Latte.jpg?v=1739982500&width=1100"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Pacific Blue",
+      "description": "Inspired by the ocean’s depth, this striking blue leather case adds boldness and modern flair to your setup.",
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "152",
+      "price": 24,
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPPacificBlueEmbossed1500px.jpg?v=1722364486&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-PacificBlue.jpg?v=1722364486&width=1100",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-PacificBlueembossed.jpg?v=1722364486&width=1100",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLEPacificBlueEmbossed1500px_ce63fe3e-a08b-4a61-844c-1020f70e9894.jpg?v=1722364486&width=1100"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Black",
+      "description": "Classic, sleek, and always in style — the black leather case is perfect for professionals who prefer understated elegance.",
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "201",
+      "price": 24,
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPBlackEmbossed1500px_191953c4-2939-427a-a2d7-933e1c31363d.jpg?v=1718121655&width=720",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackEmbossed.jpg?v=1718121655&width=1100",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPBlackEmbossed1500px_191953c4-2939-427a-a2d7-933e1c31363d.jpg?v=1718121655&width=1100",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLEBlackEmbossed1500px_6d85eaa4-983a-4689-a3eb-8bd9b3c8c7f8.jpg?v=1718372207&width=1100"
+      ]
+    }
+  ],
+  "MacBookCases": [
+    {
+      "id": "9",
+      "title": "Wood MacBook Case",
+      "description": "Crafted from premium walnut wood, this MacBook case offers a natural and luxurious aesthetic while providing maximum protection. The black inlay enhances its elegance, making it the perfect choice for those who appreciate timeless craftsmanship and modern sophistication.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPWalnutBlackInlay1500px.jpg?v=1718124680&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-WalnutBlackInlay1500px_8c73148a-681a-40c3-b038-6b1ae1dda2af.jpg?v=1718371857&width=1100",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-WalnutBlackInlay1500px_8c73148a-681a-40c3-b038-6b1ae1dda2af.jpg?v=1718371857&width=1100",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPWalnut1500px_0c916d13-21f0-4f0b-95bd-2b2d969b1e96.jpg?v=1718371857&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 199
+    },
+    {
+      "id": "10",
+      "title": "Leather MacBook Case",
+      "description": "Designed for professionals and creatives alike, this leather MacBook case is both sleek and protective. The rich black leather exterior features a subtle embossed finish that enhances grip and adds a premium touch to your everyday tech gear.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPBlackEmbossed1500px_191953c4-2939-427a-a2d7-933e1c31363d.jpg?v=1718121655&width=1100",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Black.jpg?v=1718372207&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackEmbossed.jpg?v=1718121655&width=1100",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Black.jpg?v=1718372207&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "19",
+      "price": 199
+    },
+    {
+      "id": "11",
+      "title": "Irodori Dyed Wood MacBook Cases",
+      "description": "Inspired by the vibrant hues of Japanese craftsmanship, the Irodori Dyed Wood Case combines intricate multicolor designs with authentic Hinoki Cypress wood. This case transforms your MacBook into a work of art while offering durable protection and a unique, eye-catching appeal.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPInlayMulticolor_Nijiiro_-HinokiCypress1500px_ab2a6f1f-e1fb-405e-8e6e-2b679087bf48.jpg?v=1717067622&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Multicolor_Nijiiro_-HinokiCypress_90e23774-6322-4516-af15-63eae8947590.jpg?v=1717067622&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Multicolor_Nijiiro_-HinokiCypress_90e23774-6322-4516-af15-63eae8947590.jpg?v=1717067622&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupCLOSEUPMulticolor_Nijiiro_-HinokiCypress1500px_82ba1a97-1ff6-418b-8e69-3b89488faece.jpg?v=1717067622&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "1",
+      "price": 125.1
+    },
+    {
+      "id": "12",
+      "title": "RoseWood",
+      "description": "Every wood MacBook case is finished by hand with a premium oil and wax blend, providing a rich, smooth finish that enhances the natural grain of the wood. The innovative rubber edges hug your MacBook like an iPhone case, offering superior protection against bumps and drops.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPRosewoodBlackInlay1500px.jpg?v=1738794843&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-RosewoodBronze.jpg?v=1738794843&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Rosewood.jpg?v=1738794843&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPRosewood1500px_65fd23fc-5ca6-440f-b482-bbcd48222864.jpg?v=1738794843&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "11",
+      "price": 50.15
+    },
+    {
+      "id": "13",
+      "title": "Black Ash",
+      "description": "Each wood MacBook case in our collection is meticulously handcrafted from FSC certified wood, ensuring both sustainability and stunning natural beauty. Our cases are designed to be both visually striking and highly protective for your MacBook.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPBlackAshBlackInlay1500px.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackAsh.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackAshGold.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-BlackAshwithSilverInlay.jpg?v=1738794740&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "152",
+      "price": 35
+    },
+    {
+      "id": "14",
+      "title": "Cherry",
+      "description": "Every wood MacBook case is finished by hand with a premium oil and wax blend, providing a rich, smooth finish that enhances the natural grain of the wood. The innovative rubber edges hug your MacBook like an iPhone case, offering superior protection against bumps and drops.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPCherryBlackInlay1500px.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Cherry.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-CherryInlay.jpg?v=1738794740&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPCherry1500px_d23097fe-3b4e-43ea-a0c6-1a0df53356d6.jpg?v=1738794828&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 125.1
+    },
+    {
+      "id": "15",
+      "title": "Cobalt Blue",
+      "description": "Each leather MacBook case in our collection is meticulously handcrafted from the finest full-grain leather, ensuring an unparalleled touch and feel. Our cases are designed not only to catch the eye but also to provide exceptional protection for your MacBook.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPCobaltEmbossed1500px.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Cobalt2.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Cobalt.jpg?v=1722364486&width=1100",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLECobaltEmbossed1500px_5001fcca-003f-4276-9071-5df22b84d19d.jpg?v=1722364486&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 35.1
+    },
+    {
+      "id": "16",
+      "title": "Bone White",
+      "description": "Every leather MacBook case offers outstanding strength and resilience, capable of withstanding daily wear and tear. The rubber edges hug your MacBook like an iPhone case, offering protection against bumps and drops.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPEmbossed-BoneWhite.jpg?v=1739982500&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLEEmbossed-BoneWhite.jpg?v=1739982500&width=493",
+        "https://glitty.co/cdn/shop/files/Bone_White_Leather_-_emboss_infographic.jpg?v=1739982500&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupOPENEmbossed-BoneWhite.jpg?v=1739982500&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "11",
+      "price": 199
+    },
+    {
+      "id": "17",
+      "title": "Red",
+      "description": "Each leather MacBook case in our collection is meticulously handcrafted from the finest full-grain leather, ensuring an unparalleled touch and feel. Our cases are designed not only to catch the eye but also to provide exceptional protection for your MacBook.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupTOPRedEmbossed1500px.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Red.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-Red2.jpg?v=1722364486&width=493",
+        "https://glitty.co/cdn/shop/files/Laptop3.0MockupANGLERedEmbossed1500px_907a6f4d-cb49-4d58-b905-1f4d48168877.jpg?v=1722364486&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 199
+    }
+  ],
+  "MacBookSkins": [
+    {
+      "id": "18",
+      "title": "Leather MacBook Skin",
+      "description": "This wooden MacBook skin delivers a minimalist, earthy vibe with a handcrafted walnut finish. It's ultra-thin and easy to apply, offering scratch resistance and visual warmth while maintaining the sleek profile of your device.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/SkinMockupTopBlack_97e60b90-a944-42f1-9c3f-d6e38b1bbaba.jpg?v=1677515653&width=493",
+        "https://glitty.co/cdn/shop/products/SkinBlack.jpg?v=1677515653&width=493",
+        "https://glitty.co/cdn/shop/products/SkinMockupOpenBlack_166b1ac9-b9fb-43b5-bf26-397ee21bfea7.jpg?v=1677515653&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupBottomBlack.jpg?v=1685731515&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "49",
+      "price": 69
+    },
+    {
+      "id": "19",
+      "title": "Walnut",
+      "description": "Give your MacBook a bold, refined makeover with this high-quality leather skin. The rich walnut tone and natural grain texture offer a classic look while adding a layer of tactile protection that resists scratches and fingerprints.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopWalnut_c91eae5b-64a6-4d3d-86ce-054c0bdc9d3c.jpg?v=1685730113&width=493",
+        "https://glitty.co/cdn/shop/products/SkinWalnut.jpg?v=1685730200&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenWalnut_4698a609-19cc-4026-88c4-3ab649328312.jpg?v=1685730200&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupBottomWalnut.jpg?v=1685731435&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 69
+    },
+    {
+      "id": "20",
+      "title": "RoseWood",
+      "description": "Transform your MacBook from ordinary to extraordinary with our wood MacBook Skins. Hand-crafted from the same sustainably sourced wood that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal. Our wood skins are less than 1mm thick and super lightweight for perfectly minimalist vibes.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopNewRosewood_53049df0-dd1f-4f03-a238-ec604e5dfd16.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/products/SkinRosewood.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenRosewood_1fd13e65-52a8-4d33-b332-d52c9295947d.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupCloseNewRosewood_dde8640c-8ea2-4668-b433-3b4027c38de2.jpg?v=1685731435&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "152",
+      "price": 125.1
+    },
+    {
+      "id": "21",
+      "title": "Black Ash",
+      "description": "Transform your MacBook from ordinary to extraordinary with our wood MacBook Skins. Hand-crafted from the same sustainably sourced wood that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal. Our wood skins are less than 1mm thick and super lightweight for perfectly minimalist vibes.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopBlackAsh_15f9fd74-ea93-4e96-b382-0001db2362c8.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/products/SkinBlackAsh.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupCloseBlackAsh_5e4c4422-755d-460e-bae7-bd1622fda31d.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenBlackAsh_f2333c32-e3c0-4f06-849f-45fb3890a3a0.jpg?v=1685731435&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "313",
+      "price": 69
+    },
+    {
+      "id": "22",
+      "title": "Cherry",
+      "description": "Transform your MacBook from ordinary to extraordinary with our wood MacBook Skins. Hand-crafted from the same sustainably sourced wood that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal. Our wood skins are less than 1mm thick and super lightweight for perfectly minimalist vibes.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopCherry_e2a8358b-ae44-4262-a1f9-f3af83d81c7d.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/products/SkinCherry.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenCherry_e3bda185-9d56-4ebf-8497-d6b21dc2a219.jpg?v=1685731435&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupCloseCherry_dd48c55a-5cdc-41a5-81cf-df38c48e91ea.jpg?v=1685731435&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "19",
+      "price": 125.1
+    },
+    {
+      "id": "23",
+      "title": "Cider",
+      "description": "Transform your MacBook from ordinary to extraordinary with our premium leather MacBook Skins. Crafted from the same high-quality leather that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopCider.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenCider.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupCloseCider.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupBottomCider.jpg?v=1718759637&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "128",
+      "price": 199
+    },
+    {
+      "id": "24",
+      "title": "Pacific Blue",
+      "description": "Transform your MacBook from ordinary to extraordinary with our premium leather MacBook Skins. Crafted from the same high-quality leather that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopPacificBlue.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenPacificBlue.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupClosePacificBlue.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupBottomPacificBlue.jpg?v=1718759637&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "11",
+      "price": 49
+    },
+    {
+      "id": "25",
+      "title": "Cobalt Blue",
+      "description": "Transform your MacBook from ordinary to extraordinary with our premium leather MacBook Skins. Crafted from the same high-quality leather that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopCobalt.jpg?v=1716840078&width=493",
+        "https://glitty.co/cdn/shop/products/SkinCobalt.jpg?v=1716840078&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenCobalt.jpg?v=1716840078&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupCloseCobalt.jpg?v=1716840078&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "128",
+      "price": 199
+    },
+    {
+      "id": "26",
+      "title": "Honey Brown",
+      "description": "Transform your MacBook from ordinary to extraordinary with our premium leather MacBook Skins. Crafted from the same high-quality leather that we use in our cases but without the added weight or bulk, our skins feature a pressure-sensitive adhesive for easy application and residue-free removal.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/SkinMockupTopHoneyBrown.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupOpenHoneyBrown.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupCloseHoneyBrown.jpg?v=1718759637&width=493",
+        "https://glitty.co/cdn/shop/files/SkinMockupBottomHoneyBrown.jpg?v=1718759637&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "201",
+      "price": 125.1
+    }
+  ],
+  "MacAccessories": [
+    {
+      "id": "27",
+      "title": "MacBook Wood Keyboard Skin",
+      "description": "Protect your keyboard while adding a layer of artisan charm. This wood keyboard skin fits precisely over your MacBook keys and delivers a satisfying tactile feel with a modern, eco-conscious look.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/Walnut-2_compressed.jpg?v=1633569908&width=493",
+        "https://glitty.co/cdn/shop/products/Walnut-3_compressed.jpg?v=1633572117&width=360",
+        "https://glitty.co/cdn/shop/products/fbf29efdc04f413eb827b2e765b326ae.thumbnail.0000000.jpg?v=1629422802&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "7",
+      "price": 49
+    },
+    {
+      "id": "28",
+      "title": "MacBook Wood Trackpad",
+      "description": "Enhance your touchpad experience with this real wood overlay. Crafted with precision, the Wood Trackpad not only improves grip and style but also adds a durable and organic feel to your workflow.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Trackpad3.0-BlackAsh1500px_84217fe8-2de8-438e-ab6f-e63744ea3b87.jpg?v=1716909574&width=360"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "11",
+      "price": 24
+    },
+    {
+      "id": "29",
+      "title": "MacBook Leather Trackpad",
+      "description": "Wrap your MacBook's trackpad in style with this luxurious leather overlay. It's crafted for a smooth glide, precise control, and an executive look that’s both durable and stylish.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Trackpad3.0-Cobalt1500px_0849e2ac-61a1-46cc-92eb-a857d5588770.jpg?v=1716910033&width=360"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "7",
+      "price": 24
+    },
+    {
+      "id": "30",
+      "title": "MacBook Irodori Wood Trackpad",
+      "description": "This unique trackpad cover is inspired by traditional Japanese design and wood dyeing techniques. It features vibrant colors and premium materials to elevate your MacBook’s usability and aesthetic.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/Trackpad3.0-Multicolor_Nijiiro_-HinokiCypress1500px.jpg?v=1715882834&width=1100"
+      ],
+      "ratings": "⭐",
+      "reviews": "0",
+      "price": 24
+    }
+  ],
+  "IphoneCases": [
+    {
+      "id": "31",
+      "title": "Iphone Wood",
+      "description": "Embrace nature’s simplicity with this handcrafted wood iPhone case. Lightweight yet protective, it delivers a natural grip and beautiful grain patterns that set your phone apart.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/W-iPhoneWalnut_0dbcf56a-5655-421a-bf84-a1f0cf4df5de.jpg?v=1677203465&width=360",
+        "https://glitty.co/cdn/shop/files/iphonegroup_1d835c9d-6ab7-4d35-8d1a-f864bce44c5a.jpg?v=1695239403&width=493",
+        "https://glitty.co/cdn/shop/files/IMG_2653_d0a0836f-d009-432f-9696-30f466231e30.jpg?v=1695239403&width=493",
+        "https://glitty.co/cdn/shop/products/W-iPhoneWalnut2_c10104dd-7d38-495a-804f-1e5922695d8d.jpg?v=1695239403&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "49",
+      "price": 35
+    },
+    {
+      "id": "32",
+      "title": "Iphone Irodori Dyed Wood",
+      "description": "Inspired by traditional Japanese art, this iPhone case features multicolor dyed wood patterns on a durable frame. It's both visually stunning and functionally protective.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/W-iPhoneMulticolorHinoki.jpg?v=1699458346&width=360",
+        "https://glitty.co/cdn/shop/files/irodoriiphonegroup.jpg?v=1699458346&width=493",
+        "https://glitty.co/cdn/shop/files/iPhoneMockup-redhinoki.jpg?v=1699457430&width=493",
+        "https://glitty.co/cdn/shop/files/LS-IradoriMulticolorprocess_9c1f5224-127b-4f70-a19d-380fcc72e65a.jpg?v=1699457487&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 35.1
+    },
+    {
+      "id": "33",
+      "title": "MagSafe Wood",
+      "description": "This sleek wooden MagSafe-compatible case combines organic beauty with magnetic functionality, ensuring seamless attachment and wireless charging compatibility.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/iPhoneWAMagSafe2.jpg?v=1652119405&width=360",
+        "https://glitty.co/cdn/shop/products/wa-mag-03.jpg?v=1677095026&width=493",
+        "https://glitty.co/cdn/shop/products/wa-mag-02.jpg?v=1677095026&width=493",
+        "https://glitty.co/cdn/shop/products/866ceb17f54241089adf15fc831892d5.thumbnail.0000000.jpg?v=1652191688&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 9.1
+    },
+    {
+      "id": "34",
+      "title": "Black Ash",
+      "description": "Slim, stylish and unforgivingly enticing. Each wood iPhone case is handcrafted with the utmost precision and finished using an organic oil & wax blend to accentuate its unique characteristics. Multiple coats to give it a durable and long-lasting finish while maintaining a fresh, natural look.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/W_-_iPhone_Black_Ash.jpg?v=1716911370&width=720",
+        "https://glitty.co/cdn/shop/files/iphonegroup_1d835c9d-6ab7-4d35-8d1a-f864bce44c5a.jpg?v=1695239403&width=493",
+        "https://glitty.co/cdn/shop/products/PhoneSideAngle1-resizedcopy.jpg?v=1695239403&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "19",
+      "price": 50.15
+    },
+    {
+      "id": "35",
+      "title": "MultiColor Irodori Dyed Woos Case",
+      "description": "Elevate your iPhone with our Irodori Cases, inspired by the Japanese concept of 'Irodori,' meaning various colors or colorful, signifying transformation and beauty. Our cases feature wood dyed with vibrant colors, merging artistic craftmanship and functionality in a statement accessory that protects your iPhone while celebrating the beauty of change.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/W-iPhoneMulticolorCedar.jpg?v=1699989062&width=720",
+        "https://glitty.co/cdn/shop/files/irodoriiphonegroup.jpg?v=1699458346&width=493",
+        "https://glitty.co/cdn/shop/files/iPhoneMockup-redhinoki.jpg?v=1699457430&width=493",
+        "https://glitty.co/cdn/shop/files/LS-IradoriMulticolorprocess_9c1f5224-127b-4f70-a19d-380fcc72e65a.jpg?v=1699457487&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "128",
+      "price": 24
+    },
+    {
+      "id": "36",
+      "title": "MultiColor Blue Dyed Woos Case",
+      "description": "",
+      "images": [
+        "https://glitty.co/cdn/shop/files/W-iPhoneBlueCedar.jpg?v=1699990056&width=720",
+        "https://glitty.co/cdn/shop/files/irodoriiphonegroup.jpg?v=1699458346&width=493",
+        "https://glitty.co/cdn/shop/files/iPhoneMockup-redhinoki.jpg?v=1699457430&width=493",
+        "https://glitty.co/cdn/shop/files/LS-IradoriMulticolorprocess_9c1f5224-127b-4f70-a19d-380fcc72e65a.jpg?v=1699457487&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "19",
+      "price": 50.15
+    }
+  ],
+  "IpadSkins": [
+    {
+      "id": "37",
+      "title": "Ipad Wood Skin",
+      "description": "Add a touch of nature to your iPad with this ultra-thin wooden skin. It's precision-cut for a perfect fit and adds both style and protection without extra bulk.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/W-iPadFlatWalnut-min.jpg?v=1663859392&width=360",
+        "https://glitty.co/cdn/shop/files/iPadWoodProductImage_6cb9d2b3-2a96-4946-86fe-9ef65ef15b5d.png?v=1717597535&width=493",
+        "https://glitty.co/cdn/shop/products/DSC02728.jpg?v=1717597535&width=493",
+        "https://glitty.co/cdn/shop/products/DSC03225.jpg?v=1717597535&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "49",
+      "price": 50.15
+    },
+    {
+      "id": "38",
+      "title": "Ipad Leather Skin",
+      "description": "Wrap your iPad in this premium leather skin for a classic, elegant look. It offers an extra layer of protection and a tactile surface that enhances grip and comfort during use.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/L-iPadFlatBlack-min.jpg?v=1663858520&width=360"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 35.1
+    },
+    {
+      "id": "39",
+      "title": "RoseWood",
+      "description": "Wrap your iPad in this premium leather skin for a classic, elegant look. It offers an extra layer of protection and a tactile surface that enhances grip and comfort during use.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/W-iPadFlatNewRosewood_f0e83d45-60ac-4a45-9036-90a390a2f287.jpg?v=1717597533&width=720",
+        "https://glitty.co/cdn/shop/products/W-iPadFlatWalnut-min.jpg?v=1663859392&width=1100",
+        "https://glitty.co/cdn/shop/files/iPadWoodProductImage_6cb9d2b3-2a96-4946-86fe-9ef65ef15b5d.png?v=1717597535&width=1100",
+        "https://glitty.co/cdn/shop/products/DSC02728.jpg?v=1717597535&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "49",
+      "price": 50.15
+    },
+    {
+      "id": "40",
+      "title": "Black Ash",
+      "description": "Wrap your iPad in this premium leather skin for a classic, elegant look. It offers an extra layer of protection and a tactile surface that enhances grip and comfort during use.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/W-iPadFlatBlackAsh-min_af84b56d-1d65-4320-94ce-a5421e0e709e.jpg?v=1717442026&width=720",
+        "https://glitty.co/cdn/shop/products/W-iPadFlatBlackAsh-min_af84b56d-1d65-4320-94ce-a5421e0e709e.jpg?v=1717442026&width=720",
+        "https://glitty.co/cdn/shop/products/DSC03225.jpg?v=1717597535&width=493",
+        "https://glitty.co/cdn/shop/products/DSC02728.jpg?v=1717597535&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐⭐",
+      "reviews": "152",
+      "price": 199
+    },
+    {
+      "id": "41",
+      "title": "Cherry",
+      "description": "Wrap your iPad in this premium leather skin for a classic, elegant look. It offers an extra layer of protection and a tactile surface that enhances grip and comfort during use.",
+      "images": [
+        "https://glitty.co/cdn/shop/products/W-iPadFlatCherry-min_47be593d-6175-45e4-89d0-9e944a442273.jpg?v=1717442026&width=720",
+        "https://glitty.co/cdn/shop/files/iPadWoodProductImage_6cb9d2b3-2a96-4946-86fe-9ef65ef15b5d.png?v=1717597535&width=493",
+        "https://glitty.co/cdn/shop/products/W-iPadAngleWalnut-min.jpg?v=1717597535&width=493",
+        "https://glitty.co/cdn/shop/files/LIFESTYLE-3.jpg?v=1717597535&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "152",
+      "price": 199
+    },
+    {
+      "id": "42",
+      "title": "Golden Brown",
+      "description": "Add a touch of nature to your iPad with this ultra-thin wooden skin. It's precision-cut for a perfect fit and adds both style and protection without extra bulk.",
+      "images": [
+        "https://glitty.co/cdn/shop/files/L_-_iPad_Flat_Golden_Brown.jpg?v=1717725227&width=720",
+        "https://glitty.co/cdn/shop/files/iPadLeatherProductImage_f86cde11-ee29-4bcf-b08f-c15ca395c083.png?v=1717600294&width=493",
+        "https://glitty.co/cdn/shop/files/iPadLeatherProductImage_f86cde11-ee29-4bcf-b08f-c15ca395c083.png?v=1717600294&width=493",
+        "https://glitty.co/cdn/shop/products/L-iPadAngleBlack-min.jpg?v=1717600294&width=493"
+      ],
+      "ratings": "⭐⭐⭐⭐",
+      "reviews": "191",
+      "price": 50.15
+    }
+  ],
+  "Cart": []
+}
