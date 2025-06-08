@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitty</title>
+    <link rel="stylesheet" href="/Style.css">
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!-- CSS FILE LINKED -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+<!-- NAV 1 -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom fixed">
+  <div class="container-fluid px-4">
+    
+    <button class="btn border-0" type="button">
+      <i style="font-size: 30px;" class="bi bi-search"></i>
+    </button>
+
+    
+    <a class="navbar-brand mx-auto fw-bold text-center" href="/index.html" style="font-size: 50px; color: #2e3b55;">Glitty</a>
+
+    
+<div class="d-flex align-items-center">
+  <select class="form-select form-select-sm me-2" style="width: auto;">
+    <option value="USD" selected>USD $</option>
+    <option value="EUR">EUR €</option>
+    <option value="INR">INR ₹</option>
+    <option value="GBP">GBP £</option>
+    <option value="AUD">AUD $</option>
+  </select>
+ <a href="/Pages/AddToCart.html"> <i  class="bi bi-bag" style="font-size: 35px;"></i></a>
+</div>
+</nav> 
+
+  <!-- NAV 2 -->
+  <div class="container-fluid justify-content-center ">
+    <ul class="navbar-nav flex-row flex-wrap justify-content-center">
+      <li class="nav-item mx-2">
+        <a class="nav-link" style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">Best Sellers <span>🔥</span></a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">Leather MacBook Cases</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">Wood MacBook Cases</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">MacBook Skins</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">MacBook Accessories</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">iPad Skins</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link"style="text-decoration: none;color:black;" href="/Pages/BestSelles.html">iPhone Cases</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <div class="container py-5">
+    <div class="row g-4">
+      <!-- Image Section -->
+      <div class="col-md-6">
+  <div class="row g-2">
+    <div class="col-6">
+      <img id="mainImage" class="product-image img-fluid rounded" src="" alt="Product Image" />
+    </div>
+    <div class="col-6">
+      <img id="image2" class="img-fluid rounded" src="" alt="">
+    </div>
+    <div class="col-6">
+      <img id="image3" class="img-fluid rounded" src="" alt="">
+    </div>
+    <div class="col-6">
+      <img id="image4" class="img-fluid rounded" src="" alt="">
+    </div>
+  </div>
+</div>
+
+
+      <!-- Info Section -->
+      <div class="col-md-6">
+        <h2 id="productTitle" class="product-title"></h2>
+        <p id="productPrice" class="text-muted fs-5"></p>
+        <div class="mb-2">
+          <span id="productRating" class="me-2"></span>
+          <span id="productReviews" class="text-muted"></span>
+        </div>
+
+        <!-- Description -->
+        <div class="mb-4">
+          <h5>Description</h5>
+          <p id="productDescription" class="text-secondary"></p>
+        </div>
+
+        <!-- Color Options -->
+        <div class="mb-4">
+          <h6>Available Colors</h6>
+          <div id="colorOptions" class="swatch-wrapper">
+            <section class="py-5">
+  <div class="container">
+    <div class="row g-3 justify-content-center">
+
+      <!-- Color Box Template -->
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #FF6B6B; height: 120px;">
+          <span class="fw-bold">Coral</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #4ECDC4; height: 120px;">
+          <span class="fw-bold">Turquoise</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #556270; height: 120px;">
+          <span class="fw-bold">Slate</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #C7F464; height: 120px; color: #333;">
+          <span class="fw-bold">Lime</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #FF6F91; height: 120px;">
+          <span class="fw-bold">Pink</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #845EC2; height: 120px;">
+          <span class="fw-bold">Purple</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #D65DB1; height: 120px;">
+          <span class="fw-bold">Magenta</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #FF9671; height: 120px; color: #333;">
+          <span class="fw-bold">Peach</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #0081CF; height: 120px;">
+          <span class="fw-bold">Blue</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="color-box rounded shadow-sm text-white d-flex flex-column align-items-center justify-content-center"
+             style="background-color: #6A4C93; height: 120px;">
+          <span class="fw-bold">Deep Purple</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+          </div>
+        </div>
+
+        
+        <div class="d-flex gap-3">
+          <button class="btn btn-primary w-50" id="addToCartBtn">Add to Cart</button>
+          <button class="btn btn-success w-50" id="buyNowBtn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container py-5">
+  <div class="row align-items-center">
+    
+    <div class="col-md-6 mb-4 mb-md-0">
+      <div class="ratio ratio-4x3">
+        <video class="w-100 rounded shadow" autoplay muted loop>
+          <source src="/Images/V1.mp4" type="video/mp4">
+          
+        </video>
+      </div>
+    </div>
+
+    
+    <div class="col-md-6">
+      <h4 class="fw-semibold mb-3">Peace of Mind: Priceless</h4>
+      <p class="text-muted">
+        Your MacBook is more than just a device; it's an essential part of your life. 
+        Protect it with our case, featuring robust rubber edges that guard against 
+        bumps, drops, and daily mishaps. Keep your MacBook safe and secure, so it’s 
+        always ready when you need it most.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5">
+  <h2 class="mb-4 fw-semibold">Iphone Cases</h2>
+  <div class="row g-4" id="IphoneCaseContainer">
+    
+  </div>
+  
+   
+</section>
+
+
+  <section class="py-5 text-center">
+  <div class="container">
+    
+    <div class="row gy-4" id="LeatherCases">
+     
+    </div>
+
+    <div class="mt-4">
+      <a href="#" class="btn btn-primary px-4 py-2" style="background-color: #2e3b55;
+      outline: none;border: none;">Shop all Leather Cases</a>
+    </div>
+
+    <div class="container py-5">
+  <h4 class="text-center fw-semibold">Let customers speak for us</h4>
+  <p class="text-center text-muted">from 669 reviews <span class="text-success">✅</span></p>
+
+  <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw1.avif" class="card-img-top" alt="review 1">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0 text-uppercase fs-6">Sreekanth Bhathula 
+                  <span class="badge bg-primary small ms-2">Verified</span>
+                </h6>
+                <p class="fw-semibold mt-2">I'm completely hooked on it!</p>
+                <p class="text-muted small">I am absolutely delighted with this keyboard skin! The keys truly look high quality and offer a fantastic...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw2.avif" class="card-img-top" alt="review 2">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">Customer</h6>
+                <p class="fw-semibold mt-2">Luxurious Protection</p>
+                <p class="text-muted small">It's a special feeling to own a well-crafted product. It exudes an atmosphere of elegance and timeless...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw3.avif" class="card-img-top" alt="review 3">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">E.P.</h6>
+                <p class="fw-semibold mt-2">You should get this</p>
+                <p class="text-muted small">The case is fantastic quality, as well as the customer service!!! I love it so much. It has a smooth, not too shiny...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw2.avif" class="card-img-top" alt="review 4">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">Customer</h6>
+                <p class="fw-semibold mt-2">Incredible Design</p>
+                <p class="text-muted small">This is by far the most stylish and practical case I've ever owned. The attention to detail is just top-notch.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw3.avif" class="card-img-top" alt="review 5">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">A.R.</h6>
+                <p class="fw-semibold mt-2">Perfect Fit</p>
+                <p class="text-muted small">Fits my MacBook like a glove. I love how minimal and premium it looks on my desk setup.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="/Images/rw2.avif" class="card-img-top" alt="review 6">
+              <div class="card-body text-center">
+                <p class="text-warning mb-1">★★★★★</p>
+                <h6 class="mb-0">Verified Buyer</h6>
+                <p class="fw-semibold mt-2">Worth Every Penny</p>
+                <p class="text-muted small">The build quality exceeded my expectations. It feels durable, classy, and was easy to install.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+  <footer class="container-fluid bg-white py-5 ">
+  <div class="container mt-5 ">
+    <div class="row">
+   
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Support</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Installation Guides</a></li>
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Shipping & Returns</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Warranty</a></li>
+        </ul>
+      </div>
+
+   
+      <div class="col-md-3 mb-4">
+        <h5 class="mb-3">Company</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">100's of 5-star reviews</a></li>
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+    
+      <div class="col-md-3 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <span class="me-2" style="font-size: 1.2rem;">★★★★★</span>
+          <span>380 reviews</span>
+        </div>
+      </div>
+
+ 
+      <div class="col-md-3">
+        <h5 class="mb-3">Subscribe to our emails</h5>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Email">
+          <button class="btn btn-dark" type="button">→</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="container-fluid border-top py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-2 mb-md-0">
+          <span class="me-2">Country/region</span>
+          <span class="text-muted">India | USD $</span>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <span class="text-muted">© 2025, Gittty Powered by Shopify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/Script.js"></script>
+</body>
+</html>
+
+<script>
+  //////////////////////////////////////////////WoodCasesData///////////////////////////////////////////////
+  const z = new URLSearchParams(window.location.search);
+    const id = z.get('id');
+
+    let CurrenrDescData={}
+async function RenderData() {
+  
+    
+    const res = await fetch(`http://localhost:3000/WoodCases/${id}`);
+    const data = await res.json();
+
+    CurrenrDescData=data;
+      document.getElementById('mainImage').setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1])
+      document.getElementById('image3').setAttribute("src",data.images[2])
+      document.getElementById('image4').setAttribute("src",data.images[3])
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+    return data
+  } 
+
+
+RenderData();
+///////////////////////////////////LeatherCAses////////////////////////////////////////////////////////
+
+
+async function RenderDataLeatherCase() {
+  
+   
+    const res = await fetch(`http://localhost:3000/LeatherCases/${id}`);
+    const data = await res.json();
+
+        CurrenrDescData=data;
+      document.getElementById('mainImage')?.setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1]);
+      document.getElementById('image3').setAttribute("src",data.images[2]);
+      document.getElementById('image4').setAttribute("src",data.images[3]);
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+   
+  } 
+
+
+RenderDataLeatherCase();
+
+/////////////////////////////////////////MavBook Case///////////////////////////////////
+
+async function RenderDataMacCase() {
+  
+    
+
+    const res = await fetch(`http://localhost:3000/MacBookCases/${id}`);
+    const data = await res.json();
+
+        CurrenrDescData=data;
+      document.getElementById('mainImage')?.setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1]);
+      document.getElementById('image3').setAttribute("src",data.images[2]);
+      document.getElementById('image4').setAttribute("src",data.images[3]);
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+  
+  } 
+
+
+RenderDataMacCase();
+///////////////////////////////////////////////MacBookSkin/////////////////////////////////////////
+
+async function RenderDataMacSkin() {
+  
+   
+    const res = await fetch(`http://localhost:3000/MacBookSkins/${id}`);
+    const data = await res.json();
+
+        CurrenrDescData=data;
+      document.getElementById('mainImage')?.setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1]);
+      document.getElementById('image3').setAttribute("src",data.images[2]);
+      document.getElementById('image4').setAttribute("src",data.images[3]);
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+    
+  } 
+
+
+RenderDataMacSkin();
+/////////////////////////////////////////////////MacBookAccessories///////////////////////////////////////////////////
+
+async function RenderDataMacBookAcces() {
+  
+   
+
+    const res = await fetch(`http://localhost:3000/MacAccessories/${id}`);
+    const data = await res.json();
+
+        CurrenrDescData=data;
+      document.getElementById('mainImage')?.setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1]);
+      document.getElementById('image3').setAttribute("src",data.images[2]);
+      document.getElementById('image4').setAttribute("src",data.images[3]);
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+    
+  } 
+
+
+RenderDataMacBookAcces();
+/////////////////////////////////////////////////////IphoneCase////////////////////////////////////////////////////////////
+
+async function RenderDataIphoneCase() {
+  
+    
+
+    const res = await fetch(`http://localhost:3000/IphoneCases/${id}`);
+    const data = await res.json();
+
+        CurrenrDescData=data;
+      document.getElementById('mainImage')?.setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1]);
+      document.getElementById('image3').setAttribute("src",data.images[2]);
+      document.getElementById('image4').setAttribute("src",data.images[3]);
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+    
+  } 
+
+RenderDataIphoneCase();
+/////////////////////////////////////////////////////IpadCase/////////////////////////////////////////////////////////////
+
+async function RenderDataIpadCase() {
+  
+
+    const res = await fetch(`http://localhost:3000/IpadSkins/${id}`);
+    const data = await res.json();
+
+        CurrenrDescData=data;
+      document.getElementById('mainImage')?.setAttribute("src", data.images[0]);
+      document.getElementById('image2').setAttribute("src",data.images[1]);
+      document.getElementById('image3').setAttribute("src",data.images[2]);
+      document.getElementById('image4').setAttribute("src",data.images[3]);
+      document.getElementById('productTitle').innerText = data.title;
+      document.getElementById('productDescription').innerText = data.description;
+      document.getElementById('productPrice').innerText = data.price;
+      document.getElementById('productRating').innerText = data.ratings;
+      document.getElementById('productReviews').innerText = data.reviews;
+    
+     
+  } 
+
+RenderDataIpadCase();
+
+//////////////////////////////////////////////////////////////////AddToCart//////////////////////////////////////////////////////////////////
+
+async function GetCartData() {
+  const res =await fetch("http://localhost:3000/Cart")
+  const data =await res.json();
+  return data
+  
+}
+
+const AddToCartBTN = document.getElementById('addToCartBtn');
+
+AddToCartBTN.addEventListener('click',async()=>{
+
+  const CartData =await GetCartData();
+
+  const found= CartData.find((el)=>el.id==id)
+
+  if(!found){
+
+  const res=await  fetch("http://localhost:3000/Cart",{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+      },
+      body:JSON.stringify({...CurrenrDescData,quantity:1}),
+    })
+    alert("Product Added SuccessFully")
+  }
+  else
+  {
+    alert("Product Already In Cart")
+  }
+
+
+})
+
+  
+   
+
+</script>
